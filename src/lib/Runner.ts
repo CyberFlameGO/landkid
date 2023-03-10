@@ -130,7 +130,7 @@ export class Runner {
     }
 
     if (
-      await SpeculationEngine.reOrderRequest(
+      await SpeculationEngine.reorderRequest(
         runningTargetingSameBranch,
         await this.getQueue(['queued']),
         landRequestStatus,
